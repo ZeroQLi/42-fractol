@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   utils.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mtangalv <mtangalv@student.42.fr>          +#+  +:+       +#+        */
+/*   By: zeroql <zeroql@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/04 16:36:19 by mtangalv          #+#    #+#             */
-/*   Updated: 2025/05/13 12:25:38 by mtangalv         ###   ########.fr       */
+/*   Updated: 2025/05/13 15:00:04 by zeroql           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ t_data	*init_fractol(t_data *img)
 	img->zoom = 300;
 	img->off_x = -2.178;
 	img->off_y = -1.512;
-	img->iterations = 70;
+	img->iterations = 40;
 	return (img);
 }
 

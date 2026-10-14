@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   keys.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mtangalv <mtangalv@student.42.fr>          +#+  +:+       +#+        */
+/*   By: mtangalv <mtangalv@student.42abudhabi.a    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/08 11:04:08 by mtangalv          #+#    #+#             */
-/*   Updated: 2025/05/13 12:27:13 by mtangalv         ###   ########.fr       */
+/*   Updated: 2025/09/19 18:31:13 by mtangalv         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,7 +61,7 @@ static void	ft_color(int key_code, t_data *img)
 
 int	ft_keys(int key_code, t_data *img)
 {
-	if (key_code == 53)
+	if (key_code == 9)
 		exit_fractol(img, 0);
 	if (key_code == 0 || key_code == 123)
 		img->off_x -= 35 / img->zoom;
